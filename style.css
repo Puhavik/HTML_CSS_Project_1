@@ -28,13 +28,12 @@ body{
 
 .info {
   display: flex;
-  width: 100%;
   margin-bottom: 10px;
+  gap: 1rem;
 }
 
 .info-text {
   padding-bottom: 20px;
-  margin-left: 30px;
 }
 
 .info-text p {
@@ -47,9 +46,9 @@ body{
     text-align: center;
   }
 
-} {
+} 
 
-}
+
 .hobby {
   background: #C1DFB6;
 }
@@ -111,7 +110,7 @@ body{
 .form-group textarea{
   width: 100%;
   box-sizing: border-box;
-  border; none;
+  border: none;
 }
 
 .form-row {
@@ -139,6 +138,6 @@ body{
   }
 }
 
-.form-row .form-group: last-child {
+.form-row .form-group:last-child {
   margin-right: 0px;
 }
